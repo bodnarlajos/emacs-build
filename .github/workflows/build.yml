@@ -19,9 +19,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - os: windows-latest
-            shell: powershell
-            arch: x86_64
+          # - os: windows-latest
+          #  shell: powershell
+          #  arch: x86_64
           - os: debian-latest
             shell: bash
 
