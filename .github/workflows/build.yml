@@ -22,7 +22,7 @@ jobs:
           - os: windows-latest
             shell: powershell
             arch: x86_64
-          - os: ubuntu-latest
+          - os: debian-latest
             shell: bash
 
     # The type of runner that the job will run on
@@ -100,7 +100,7 @@ jobs:
 
   publish:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: debian-latest
     steps:
       - name: Download binaries
         uses: actions/download-artifact@v2
