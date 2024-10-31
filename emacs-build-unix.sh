@@ -31,7 +31,7 @@ echo emacs_build_flags=$emacs_build_flags
 
 cd $emacs_src_dir
 
-render_libs="librsvg2-dev libxpm-dev libjpeg-dev libpng-dev libgif-dev libgtk-3-dev libharfbuzz-dev"
+render_libs="librsvg2-dev libxpm-dev libjpeg-dev libpng-dev libgif-dev libgtk-3-dev libharfbuzz-dev libmps-dev"
 render_deps=",librsvg2-2,libxpm4,libjpeg9,libgif7,libpng16-16,libgtk-3-0,libharfbuzz0b"
 
 sudo add-apt-repository -y ppa:ubuntu-toolchain-r/ppa
