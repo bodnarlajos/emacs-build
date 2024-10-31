@@ -39,7 +39,8 @@ sudo apt update
 # libtree-sitter-dev is only supported from Jammy (22.04)
 sudo apt install -y dpkg-dev autoconf make texinfo $render_libs libgnutls28-dev \
      libncurses5-dev libsystemd-dev libgccjit-11-dev gcc-11 libxt-dev \
-     libtree-sitter-dev libwebkit2gtk-4.0-dev curl
+     libtree-sitter-dev libwebkit2gtk-4.0-dev curl \
+     libmps-dev
 export CC=/usr/bin/gcc-11 CXX=/usr/bin/gcc-11
 
 ./autogen.sh
